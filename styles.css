@@ -20,6 +20,27 @@ body{
     overflow: hidden;
     box-shadow: 0 5px 15 px rgba(0, 0, 0, 0.2);
 }
+.login-box{
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    color: #333;
+    margin-bottom: 20px;
+}
+.input-box{
+    margin-bottom: 15px;
+}
+.input-box input{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
 .container .img{
     flex: 1;
     overflow: hidden;
