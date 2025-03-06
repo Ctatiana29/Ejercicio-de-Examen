@@ -11,3 +11,16 @@ body{
     height: 100vh;
     background-color: #7B1FA2;
 }
+.container{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15 px rgba(0, 0, 0, 0.2);
+}
+.container .img{
+    flex: 1;
+    overflow: hidden;
+}
